@@ -126,7 +126,24 @@ export default {
             }
 // Page that should shown
             const text =
-                "Api is working fine.\n\nSupport : https://telegram.me/TechZBots_Support";
+                "<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hipanime Thumb Generation</title>
+    <script type="text/javascript">
+        window.onload = function() {
+            alert("🎉 Hipanime Thumb Generation Working Just like normal 😊");
+        }
+    </script>
+</head>
+<body>
+    <h1>Hipanime Thumb Generation 🚀</h1>
+    <img src="https://via.placeholder.com/150" alt="Sample Image">
+</body>
+</html>
+                ";
 
             return new Response(text, {
                 headers: {
