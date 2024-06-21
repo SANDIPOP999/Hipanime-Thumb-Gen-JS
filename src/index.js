@@ -124,7 +124,7 @@ export default {
                     return Response.redirect(data.thumb, 301);
                 }
             }
-
+// Page that should shown
             const text =
                 "Api is working fine.\n\nSupport : https://telegram.me/TechZBots_Support";
 
